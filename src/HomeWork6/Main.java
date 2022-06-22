@@ -5,18 +5,18 @@ import java.util.Scanner;
 
 public class Main {
 
-    public static void main(String[] args) throws InputMismatchException {
+    public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
 
-        double distanceRun = Math.random() * 500;
-        double distanceJump = Math.random() * 3;
-        double distanceSwim = Math.random() * 0;
+        double distanceRun = 200;
+        double distanceJump = 3;
+        double distanceSwim = 0;
         Cat cat = new Cat(distanceRun, distanceJump, distanceSwim);
 
-        distanceRun = Math.random()*2000;
-        distanceJump = Math.random()*2;
-        distanceSwim = Math.random()*100;
+        distanceRun = 500;
+        distanceJump = 2;
+        distanceSwim = 10;
         Animal dog = new Dog(distanceRun, distanceJump, distanceSwim);
 
 
